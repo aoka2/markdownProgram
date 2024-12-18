@@ -1,3 +1,6 @@
+#環境インストール
+#pip install markitdown
+
 from markitdown import MarkItDown
 
 markitdown = MarkItDown()
