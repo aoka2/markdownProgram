@@ -1,7 +1,8 @@
-#環境インストール
-#pip install markitdown
-
 from markitdown import MarkItDown
+import os
+
+#環境インストール
+os.system("powershell -Command pip install markitdown")
 
 markitdown = MarkItDown()
 result = markitdown.convert("test_wikipedia.html")
